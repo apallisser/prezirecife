@@ -1,0 +1,256 @@
+---
+title: "A situação do open data em Recife"
+subtitle: "Agência Francesa de Desenvolvimento (AFD)"
+author: "Allyson Pallisser, Samuel Goëta e Joël Gombin, Datactivist"
+date: "Marseille, Julho de 2020"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"]
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+params:
+  event: Recife - Apresentação do estudo
+  slug: prezrecife
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+## Um trabalho de meses...
+
+Agradecimentos iniciais
+
+![Equipe Datactivist em Setembro de 2019](https://github.com/apallisser/teste/blob/master/P1100044.png?raw=true)
+
+
+---
+## A estrutura do estudo
+
+- **Levantamento da situação do projeto open data em Recife:**
+
+- **Reconhece os pontos positivos do projeto,** 
+
+- **Sugere pontos a serem trabalhados para a melhoria do open data recifense,**
+
+- **Visão estratégica: .red["colocar a abertura de dados a serviço das políticas públicas e do desenvolvimento econômico"],**
+
+- **Recomendações.**
+
+---
+## A metodologia do estudo
+
+- **Estudo qualitativo e quantitativo:**
+
+- Entrevistas, observações e análises de documentos, 
+
+- Dados recolhidos durante o workshop promovido pela Datactivist em Recife.
+
+
+---
+## Delimitação do espaço 
+
+#### Importante destacar a particularidade do contexto brasileiro:
+
+- **2011, o ano da transparência no Brasil**
+
+- .red[**Lei de Acesso à Informação (LAI) é sancionada**]
+
+A LAI é bem difundida no Brasil e utilisada por uma série de atores da sociedade civil, graças ao dispositivo o país figura na 28º posição no *Right to Information Index*.
+
+<iframe src="https://giphy.com/embed/l0dhKnYWO2UNpIqt85" width="480" height="282" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0dhKnYWO2UNpIqt85"></a></p> 
+
+
+---
+## Delimitação do espaço 
+
+#### Além disso, 
+
+- .red[**Brasil, em parceria com outras nações, cria a Open Government Partnership (OGP)**]
+
+Estabelecendo comprimissos junto à OGP o país vai colocar em prática diversas medidas visando melhorar a transparência pública e a abertura de dados.
+
+- **2016, o open data é impulsionado no Governo Federal**
+
+<iframe src="https://giphy.com/embed/QTxqLHn7qRzfCgxZKd" width="480" height="266" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/QTxqLHn7qRzfCgxZKd"></a></p>
+
+A partir de 2016 o número de compromissos junto à OGP cai consideralvelmente e o aprofundamento dos projetos de abertura de dados no estados e municípios igualmente.
+
+
+---
+## Open data em Recife: bases sólidas...
+
+As particularidades do open data brasileiro são sentidas em Recife, uma das mais avançadas no assunto nacionalmente.
+
+Iniciativas que possibilitaram o desenvolvimento do projeto:
+
+- A identificação de uma série de conjuntos de dados a serem abertos inicialmente;
+- Parcerias estratégicas;
+- Disponibilização de capital técnico e econômico;
+- Forte relação com a comunidade local de reutilisadores de dados.
+
+
+---
+## ... e prontas para avançarem 
+
+Iniciativas implatadas no início do projeto entretanto, carecem revisão, aprofundamento ou simplesmente documentação do processo. Destaca-se a elaboração de um documento prevendo: 
+
+- A constituição de um mapeamento de bases de dados; 
+- Processo de revisão periódica da qualidade dos dados disponibilizados;
+- A circulação dos dados entre as secretarias municipais; 
+- Facilitação gráfica ativa dos conjuntos de dados; 
+
+Quanto as estratégicas visando aprofundar o projeto, imagina-se:
+- Elaboração de dispositivos de lei;
+- Constituição de grupos de trabalho com atores metropolitanos; 
+- Parcerias internacionais. 
+
+
+---
+## Por último
+
+#### .red[- A institucionalização de um grupo estruturado de atores responsável pela governança do projeto com papéis bem delimitados e reuniões periódicas;]
+#### .red[- Criação de mais dispositivos de fomento à reutilização de dados (feiras, hackathons, Challenges Data, Café hacker, Data beer, hackaviz...).]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqy-APuF_4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+
+---
+## A estruturação da rede de autoridades open data
+
+- Durante o workshop em Recife, a Datactivist em parceria com a CGM e a EMPREL, puderam sensibilizar e formar servidores públicos de diversas secretarias para a abertura de dados; 
+
+- A ocasião possibilitou a constituição de uma "rede de autoridades open data", responsável identificar conjuntos de dados a serem abertos dentro das secretarias e abrí-los em parceria com a equipe encarregada do portal open data recifense.
+
+
+---
+## O projeto open data do ponto de vista dos servidores
+
+- Transparência e abertura de dados: ponto de incompreensão; 
+- Os freios e motores para a abertura de dados segundo os servidores:
+
+.red[**FREIOS**] 
+- Exposição do trabalho
+- Segurança do servidor 
+- Custos 
+
+.red[**MOTORES**]
+- Accountability
+- Transparência 
+- Fomentar a economia
+
+**- Todos os servidores, sem exceção, identificaram mais pontos pró-abertura.**
+
+
+
+---
+## Foco nas competências desses agentes municipais 
+
+- Algumas questões são dominadas plenamente pelos servidores municipais;
+
+- Em outras existe uma grande diferença entre secretarias:
+
+![:largeur 70%](https://raw.githubusercontent.com/apallisser/prezrecife/master/viz_servidores.png) 
+
+
+
+---
+## A utilidade do mapeamento de competências 
+
+#### 1. .red[Identificar secretarias] mais ou menos aptas para o projeto de abertura de dados e planejar formações específicas: 
+
+![:largeur 90%](https://raw.githubusercontent.com/apallisser/prezrecife/master/SEMOC_coleta%20de%20dados.png)
+
+
+
+---
+## A utilidade do mapeamento de competências 
+
+#### 2. Colocar em prática um .red[projeto de abertura de dados] com visão estratégica:
+
+#### Exemplo: mapeamento de bases de dados
+
+.red[**IDENTIFICAR BASES**]
+
+- Junto aos servidores: bases externas mais utilizadas; 
+- Junto aos pedidos via LAI: informacões mais pedidas e que possuem bases nas secretarias;
+- Junto aos reutilizadores: abrir uma consulta pública.
+
+
+
+---
+## Recomendações
+
+<iframe src="https://giphy.com/embed/eHFzZQlNUAsYH6Tb6B" width="480" height="310" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/eHFzZQlNUAsYH6Tb6B"></a></p>
+
+
+---
+class: inverse, center, middle
+
+## Dúvidas, perguntas, sugestões?
+
+🤔
+
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contato : 
+
+[allyson@datactivist.coop](mailto:allyson@datactivist.coop)
+
+[samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+
